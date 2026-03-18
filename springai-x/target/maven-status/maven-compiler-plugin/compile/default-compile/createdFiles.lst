@@ -1,0 +1,9 @@
+com/example/springai/SpringAiApplication.class
+com/example/springai/skills/weather/WeatherSkill$Request.class
+com/example/springai/agent/AgentController.class
+com/example/springai/config/ChatClientConfig.class
+com/example/springai/skills/stock/StockSkill$Request.class
+com/example/springai/skills/weather/WeatherSkill$Response.class
+com/example/springai/skills/weather/WeatherSkill.class
+com/example/springai/skills/stock/StockSkill$Response.class
+com/example/springai/skills/stock/StockSkill.class

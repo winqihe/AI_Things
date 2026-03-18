@@ -1,0 +1,21 @@
+# Spring AI Skills Agent 配置
+# 使用本地 Ollama 运行 qwen3:0.6b 模型
+
+spring:
+  application:
+    name: springai-skills
+
+  ai:
+    ollama:
+      base-url: http://localhost:11434
+      chat:
+        model: qwen3:0.6b
+        options:
+          temperature: 0.7
+
+server:
+  port: 8080
+
+logging:
+  level:
+    org.springframework.ai: DEBUG
